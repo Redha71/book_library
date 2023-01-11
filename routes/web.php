@@ -20,4 +20,4 @@ Route::get('/', function () {
 Route::get('books', [BooksController::class, 'index']);
 Route::post('store', [BooksController::class, 'store']);
 Route::get('borrowe/{id}', [BooksController::class, 'returnBook']);
-Route::post('borrowebook', [BooksController::class, 'borroweBook']);
+Route::post('borrowebook', [BooksController::class, 'borroweBook']); 
